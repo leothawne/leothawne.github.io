@@ -6,4 +6,5 @@ Disallow: /TheDoctorReborn/api/
 Disallow: /TheDoctorReborn/_config.yml
 Disallow: /TheDoctorReborn/rd.html
 Disallow: /TheDoctorReborn/README.md
+Disallow: /downloads/
 Disallow: /README.md
