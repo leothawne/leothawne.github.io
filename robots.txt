@@ -7,4 +7,5 @@ Disallow: /TheDoctorReborn/_config.yml
 Disallow: /TheDoctorReborn/rd.html
 Disallow: /TheDoctorReborn/README.md
 Disallow: /downloads/
+Disallow: /navbar.css
 Disallow: /README.md
