@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /TheDoctorReborn/index.html
+Allow: /index.html
+Disallow: /TheDoctorReborn/api/
+Disallow: /TheDoctorReborn/_config.yml
+Disallow: /TheDoctorReborn/rd.html
+Disallow: /TheDoctorReborn/README.md
+Disallow: /README.md
