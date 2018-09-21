@@ -1,3 +1,6 @@
+.navbar-wrapper {
+	index: 1000;
+}
 .navbar, .dropdown-menu{
 	background:rgba(255,255,255,0.25);
 	border: none;
