@@ -1,5 +1,5 @@
 .navbar-wrapper {
-	z-index: 1000;
+	z-index: 1;
 }
 .navbar, .dropdown-menu{
 	background:rgba(255,255,255,0.25);
