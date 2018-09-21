@@ -4,3 +4,4 @@ Allow: /index.html
 Disallow: /downloads/
 Disallow: /navbar.css
 Disallow: /README.md
+Disallow: /twitter.html
