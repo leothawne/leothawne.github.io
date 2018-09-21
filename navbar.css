@@ -2,7 +2,7 @@
 	z-index: 1;
 }
 .navbar, .dropdown-menu{
-	background:rgba(0,0,0,1.0);
+	background:rgba(0, 0, 0, 1.0);
 	border: none;
 }
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
