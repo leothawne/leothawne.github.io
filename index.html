@@ -37,31 +37,7 @@
 			header {
 				margin-bottom: 100px;
 			}
-			.fixedTweet {
-				text-align: center;
-				margin-top: 0px;
-				margin-bottom: 30px;
-				font-family: Sans-serif;
-				font-size: 20px;
-			}
 		</style>
-		<script>
-			var tweetEnabled = false;
-			var tweetURL = "https://twitter.com/leothawne/status/1040907277031669760";
-			$(document).ready(function (){
-				if(tweetEnabled == true){
-					$.getJSON("https://publish.twitter.com/oembed?url=" + tweetURL, function (responseData){
-						var items = [];
-						$.each(responseData, function (url, author_name, author_url, html, width, height, type, cache_age, provider_name, provider_url, version){
-							items.push("");
-							//continuar
-						});
-					});
-				} else {
-					$(".fixedTweet").html("Twitter API disabled by the administrator!");
-				}
-			});
-		</script>
 	</head>
 	<body>
 		<header>
@@ -118,9 +94,6 @@
 		<p style="text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 2px;">Leonardo</p>
 		<p style="text-align: center; font-size: 20px; font-family: Arial; margin-top: 0px; margin-bottom: 1px;"><u><a href="/twitter.html" target="_blank" style="color: #ffffff;">Twitter</a></u></p>
 		<p style="text-align: center; font-size: 20px; font-family: Arial; margin-top: 0px; margin-bottom: 30px;"><u><a href="/discord.html" target="_blank" style="color: #ffffff;">Discord</a></u></p>
-		<!-- Begin Twitter API -->
-		<div class="fixedTweet"></div>
-		<!-- End Twitter API -->
 		<footer>
 			<hr />
 			<p style="text-align: center; font-size: 14px;">&copy; 2018. Todos os direitos reservados!</p>
