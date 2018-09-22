@@ -1,17 +1,18 @@
 $(document).ready(function (){
-	if(newsEnabled == true){
-		$.getJSON("/contents/json/news.json", function (responseData){
-			var	fixedNews = "URL: " + url + "<br /><br />" +
-				"Author Name: " + author_name + "<br /><br />" +
-				"Author URL: " + author_url + "<br /><br />" +
-				"HTML: " + html + "<br /><br />" +
-				"Width: " + width + "<br /><br />" +
-				"Height: " + height + "<br /><br />" +
-				"Type: " + type + "<br /><br />" +
-				"Cache Age: " + cache_age + "<br /><br />" +
-				"Provider Name: " + provider_name + "<br /><br />" +
-				"Provider URL: " + provider_url + "<br /><br />" +
-				"Version: " + version;
+	if(newsEnable != undefined && newsId != undefined && newsEnable == true){
+		$.getJSON("/contents/json/news/" + newsId + ".json", function (responseData){
+			var fixedNews = "";
+			$.each(responseData, function (id, author_name, author_url, date, time, title, description, html_message){
+				fixedNews =
+					"Id: " + id + "<br /><br />" +
+					"Author Name: " + author_name + "<br /><br />" +
+					"Author URL: " + author_url + "<br /><br />" +
+					"Date: " + date + "<br /><br />" +
+					"Time: " + time + "<br /><br />" +
+					"Title: " + title + "<br /><br />" +
+					"Description: " + description + "<br /><br />" +
+					"HTML Message: " + html_message + "<br /><br />";
+			});
 			$(".fixedNews").html(fixedNews);
 		});
 	} else {
