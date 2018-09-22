@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="/contents/styles/navbar.css" />
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="/contents/scripts/twitter.js"></script>
 		<link rel="icon" type="image/jpg" href="/contents/images/icons/root.jpg" />
 		<link rel="shortcut icon" type="image/jpg" href="/contents/images/icons/root.jpg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -31,19 +32,6 @@
 		<script>
 			var tweetEnabled = false;
 			var tweetURL = "https://twitter.com/leothawne/status/1040907277031669760";
-			$(document).ready(function (){
-				if(tweetEnabled == true){
-					$.getJSON("https://publish.twitter.com/oembed?url=" + tweetURL, function (responseData){
-						var items = [];
-						$.each(responseData, function (url, author_name, author_url, html, width, height, type, cache_age, provider_name, provider_url, version){
-							items.push("");
-							//continuar
-						});
-					});
-				} else {
-					$(".fixedTweet").html("Twitter API disabled by the administrator!");
-				}
-			});
 		</script>
 	</head>
 	<body>
