@@ -2,6 +2,7 @@ $(document).ready(function (){
 	if(newsEnable != undefined && newsId != undefined && newsEnable == true){
 		$.getJSON("/contents/json/news/" + newsId + ".json", function (responseData){
 			var fixedNews = "";
+			alert(responseData);
 			$.each(responseData, function (__, html_message, __, description, __, title, __, time, __, date, __, author_url, __, author_name, __, id){
 				fixedNews =
 					"Id: " + id + "<br /><br />" +
