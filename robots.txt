@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /icon.jpg
 Allow: /index.html
 Disallow: /contents/
 Disallow: /downloads/
