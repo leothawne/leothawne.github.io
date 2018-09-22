@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /icon.jpg
 Allow: /index.html
+Disallow: /contents/
 Disallow: /downloads/
 Disallow: /discord.html
-Disallow: /navbar.css
 Disallow: /README.md
 Disallow: /twitter.html
