@@ -4,5 +4,4 @@ Disallow: /contents/
 Disallow: /downloads/
 Disallow: /discord.html
 Disallow: /news.html
-Disallow: /README.md
 Disallow: /twitter.html
