@@ -1,57 +1,50 @@
 User-agent: Googlebot
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 User-agent: Googlebot-images
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 User-agent: Adsbot-Google
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 User-agent: Mediapartners-Google
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 User-agent: Slurp
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 User-agent: Bingbot
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 User-agent: *
 Disallow: /contents/
 Disallow: /downloads/
-Disallow: /discord.html
+Disallow: /networks/
 Disallow: /news.html
-Disallow: /twitter.html
 Allow: /
 
 Sitemap: https://leothawne.github.io/sitemap.xml
