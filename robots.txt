@@ -2,14 +2,12 @@ User-agent: Googlebot
 Disallow: /contents/
 Disallow: /downloads/
 Disallow: /networks/
-Disallow: /news.html
 Allow: /
 
 User-agent: Googlebot-images
 Disallow: /contents/
 Disallow: /downloads/
 Disallow: /networks/
-Disallow: /news.html
 Allow: /
 
 User-agent: Adsbot-Google
@@ -23,28 +21,24 @@ User-agent: Mediapartners-Google
 Disallow: /contents/
 Disallow: /downloads/
 Disallow: /networks/
-Disallow: /news.html
 Allow: /
 
 User-agent: Slurp
 Disallow: /contents/
 Disallow: /downloads/
 Disallow: /networks/
-Disallow: /news.html
 Allow: /
 
 User-agent: Bingbot
 Disallow: /contents/
 Disallow: /downloads/
 Disallow: /networks/
-Disallow: /news.html
 Allow: /
 
 User-agent: *
 Disallow: /contents/
 Disallow: /downloads/
 Disallow: /networks/
-Disallow: /news.html
 Allow: /
 
 Sitemap: https://leothawne.github.io/sitemap.xml
